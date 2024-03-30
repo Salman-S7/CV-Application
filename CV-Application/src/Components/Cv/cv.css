@@ -1,0 +1,45 @@
+.cv-container{
+    background: #d6ffc1;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 110vh;
+    padding: 1%;
+    /* margin-bottom: 4vh; */
+}
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    align-items: center;
+    /* font-size: 16px; */
+}
+.personal-info p {
+    display: flex;
+    text-align: center;
+}
+.education , .experience, .skills, .projects, .certification, .awards{
+    width: 100%;
+}
+.education-head, .experience-head, .skills-head, .projects-head, .certification-head, .awards-head{
+    width: 100%;
+    border-bottom: 1px solid;
+}
+.education-info-container, .experience-info-container, 
+.skills-info-container,
+.projects-info-container,
+.certification-info-container,
+.awards-info-container
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+}
+.education-info-container p, .experience-info-container p, .projects-info-container p{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,32 @@
+.cv-editor-container{
+    background: #cbfff5;
+    width: 49%;
+    height: 110vh;
+    padding: 2%;
+    overflow-y: scroll;
+}
+/* .cv-editor-container::-webkit-scrollbar{
+    width: 40px;
+} */
+.cv-editor-container{
+    display: flex;
+    flex-direction: column;
+}
+.personal-info-editor{
+    display: flex;
+    flex-direction: column;
+}
+.p-info-p1, .p-info-p2{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.p-info-p1 div,.p-info-p2 div{
+    width: 50%;
+}
+#firstName, #lastName, #email, #phone, #address, #job, #links{
+    /* width: 100%; */
+    padding: 1%;
+    border-radius: 8px;
+}
